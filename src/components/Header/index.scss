@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid #000;
+  padding: 20px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  &__items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__item {
+  }
+  &__link {
+    font-size: 22px;
+    transition: 0.3s;
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
+}
